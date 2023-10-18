@@ -1,0 +1,24 @@
+// main.js
+
+let display = document.getElementById ("display");
+let currentlnput = " ";
+
+function appendToDisplay(value) {
+    currentlnput += value;
+    display.value = currentlnput;
+}
+
+function clearDisplay(){
+    currentlnput = " ";
+    display.value = " ";
+}
+
+function caculateResult() {
+    try {
+        currentlnput = eval (currentlnput);
+        display.value = currentlnput; 
+}
+
+
+}
+       

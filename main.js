@@ -9,16 +9,16 @@ function appendToDisplay(value) {
 }
 
 function clearDisplay(){
-    currentlnput = " ";
-    display.value = " ";
+    currentlnput = "";
+    display.value = "";
 }
 
 function caculateResult() {
     try {
         currentlnput = eval (currentlnput);
         display.value = currentlnput; 
-}
-
-
+}catch(error){
+    display.value="Erro";
+ }
 }
        

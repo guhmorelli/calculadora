@@ -1,7 +1,8 @@
 // main.js
 
 let display =
- document.getElementById ("display");
+ document.getElementById
+  ("display");
 let currentlnput = "";
 
 function
